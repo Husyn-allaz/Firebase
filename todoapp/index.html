@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase</title>
+</head>
+
+<body>
+
+    <h1>Book form</h1>
+
+    <input type="text" id="bookTitle" placeholder="Title">
+    <input type="text" id="bookPrice" placeholder="Title">
+
+    <button id="addToDo">Add</button>
+    
+
+    <br>
+    <br>
+
+    <ul id="telebeList">
+        <table>
+            <thead>
+                <td><th>Kitab Adi</th></td>
+            </thead>
+        </table>
+
+    </ul>
+    <button style="padding: 15px 30px;background-color:aquamarine;" id="go">Go</button>
+
+    <script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
+
+    <script src="./db.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
